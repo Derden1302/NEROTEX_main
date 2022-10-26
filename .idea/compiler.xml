@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="webtutor-stub" />
         <module name="frkk-webtutor-stub-master@69a222dbe67" />
+        <module name="webtutor-stub" />
+        <module name="NEROTEX_main" />
         <module name="Nerotex_server" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="NEROTEX_main" options="-parameters" />
       <module name="Nerotex_server" options="-parameters" />
       <module name="frkk-webtutor-stub-master@69a222dbe67" options="-parameters" />
       <module name="webtutor-stub" options="-parameters" />
